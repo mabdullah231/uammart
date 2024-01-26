@@ -80,7 +80,6 @@
         gap: 20px;
     }
     .footer-logo{
-
         transform: scale(0.7);
     }
     .footer-copyright{
@@ -95,5 +94,22 @@
     }
     .footer-links li{
         font-size: 14px;
+    }
+}
+@media screen and (max-width:400px) {
+    .footer-links{
+        gap: 8px;
+    }
+    .footer-links li{
+        font-size:12px;
+    }
+    .footer-copyright{
+        font-size: 10px;
+    }
+    .footer-social-icon img{
+        transform: scale(0.8);
+    }
+    .footer-logo{
+        transform: scale(0.6);
     }
 }

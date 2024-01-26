@@ -125,3 +125,14 @@
         /* border-radius: 50px; */
     }
 }
+@media screen and (max-width:400px) {
+    .newsletter div{
+        width: 100%;
+    }
+    .newsletter div input{
+        width: 80%;
+    }
+    .newsletter div button{
+        width: 40%;
+    }
+}
