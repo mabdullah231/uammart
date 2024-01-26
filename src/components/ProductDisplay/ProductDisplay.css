@@ -142,4 +142,9 @@
         width: 40vw;
     }
 }
+@media (max-width:550px){
+    .productdisplay{
+        margin: 05vh 05vh;
+    }
+}
 
