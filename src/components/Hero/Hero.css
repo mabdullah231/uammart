@@ -1,0 +1,132 @@
+.hero{
+    background: linear-gradient(180deg, rgba(253,225,255,1), rgba(179,160,160,1) 60%);   
+    display: flex;
+    padding: 10vh 15vh;
+    /* padding: 50px; */
+    height: auto;
+    /* width: 100%; */
+    flex-wrap: wrap;
+}
+.hero-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* padding-left: 160px; */
+    line-height: 1.1;
+}
+.hero-left h2{
+    color: #090909;
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-left p{
+    color: #171717;
+    font-size: 70px;
+    font-family: 700;
+}
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    width: 280px;
+    height: 50px;
+    border-radius: 60px;
+    margin-top: 25px;
+    background: #c43333;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.hero-right{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:1024px) {
+    .hero{
+        padding: 8vh 10vh;
+    }
+    .hero-left h2{
+        color: #090909;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hero-left p{
+        color: #171717;
+        font-size: 50px;
+        font-family: 700;
+    }
+    .hero-right img{
+        width: 450px;
+    }
+    .hero-latest-btn{
+        width: 240px;
+        height: 40px;
+        border-radius: 50px;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:800px) {
+    .hero{
+        padding: 6vh 6vh;
+    }
+    .hero-left h2{
+        color: #090909;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hero-left p{
+        color: #171717;
+        font-size: 30px;
+        font-family: 700;
+    }
+    .hero-right img{
+        width: 330px;
+    }
+    .hero-latest-btn{
+        width: 200px;
+        height: 35px;
+        border-radius: 45px;
+        margin-top: 16px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero{
+        padding: 10vh 5vh;
+        gap: 10vh;
+    }
+    .hero-left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero-left h2{
+        color: #090909;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .hero-left p{
+        color: #171717;
+        font-size: 35px;
+        font-family: 700;
+    }
+    .hero-latest-btn{
+        width: 200px;
+        height: 40px;
+        border-radius: 35px;
+        margin-top: 13px;
+        font-size: 12px;
+    }
+    .hero-right img{
+        width: 300px;
+    }
+}
