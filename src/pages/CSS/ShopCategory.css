@@ -39,3 +39,26 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media screen and (max-width:600px) {
+    .shopcategory-sort{
+        padding: 8px 8px;
+        border-radius: 20px;
+        border: 1px solid #888;
+        width: 100px;
+    }
+    .shopcategory-indexSort{
+        margin: 4vh 8vh;
+    }
+}
+@media screen and (max-width:500px) {
+    .shopcategory-sort{
+        padding: 8px 8px;
+        border-radius: 20px;
+        border: 1px solid #888;
+        width: 100px;
+    }
+    .shopcategory-indexSort{
+        margin: 2vh 4vh;
+    }
+
+}
